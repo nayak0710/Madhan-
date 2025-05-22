@@ -1,1 +1,117 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .about, .projects, .contact {
+      margin-bottom: 40px;
+    }
+
+    .resume {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .resume a {
+      display: inline-block;
+      background: #28a745;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>madhan</h1>
+    <p>Web Developer | Designer | Coder</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="about">
+      <h2>traveller </h2>
+      <p>Hello! I'm a passionate developer with a love for clean design and efficient code.</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Project One - Description</li>
+        <li>Project Two - Description</li>
+        <li>Project Three - Description</li>
+      </ul>
+    </section>
+
+    <section class="resume">
+      <h2>Download My Resume</h2>
+      <a href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: blueznayak0706@gmail.com</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
